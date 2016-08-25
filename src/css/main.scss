@@ -1,0 +1,45 @@
+@import 'bower_components/pasteup-palette/src/_palette';
+@import "bower_components/guss-colours/_colours.scss";
+
+@include guss-generate-colour-classes($palette: $pasteup-palette, $property: background-color, $prefix: b-);
+
+$neutral-1: map-get($pasteup-palette, 'neutral-1');
+$neutral-2: map-get($pasteup-palette, 'neutral-2');
+$neutral-3: map-get($pasteup-palette, 'neutral-3');
+$neutral-4: map-get($pasteup-palette, 'neutral-4');
+$neutral-5: map-get($pasteup-palette, 'neutral-5');
+$neutral-6: map-get($pasteup-palette, 'neutral-6');
+$neutral-7: map-get($pasteup-palette, 'neutral-7');
+$neutral-8: map-get($pasteup-palette, 'neutral-8');
+$news-main-1: map-get($pasteup-palette, 'news-main-1');
+$news-main-2: map-get($pasteup-palette, 'news-main-2');
+$features-main-1:map-get($pasteup-palette, 'features-main-1');
+$features-main-2:map-get($pasteup-palette, 'features-main-2');
+$features-main-3:map-get($pasteup-palette, 'features-main-3');
+$features-main-4:map-get($pasteup-palette, 'features-main-4');
+
+
+$light-blue:rgb(77, 198, 221);
+
+$guardian-brand: map-get($pasteup-palette, 'guardian-brand');
+$guardian-brand-light: map-get($pasteup-palette, 'guardian-brand-light');
+$guardian-brand-dark: map-get($pasteup-palette, 'guardian-brand-dark');
+
+$buy-colour :  rgb(75, 198, 223); // #ffce4b; 
+$sell-colour : rgb(0,86,137); // #7d7569; 
+
+
+
+
+
+@import "fonts";
+@import "palette";
+@import "mq";
+@import "grid-system";
+@import "general";
+@import "filter";
+
+@import "layout";
+@import "chart";
+
+

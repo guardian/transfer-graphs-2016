@@ -1,0 +1,7 @@
+@import '../../bower_components/pasteup-palette/src/_palette.scss';
+
+@function colour($name) {
+    @return map-get($pasteup-palette, $name);
+}
+
+
